@@ -1,0 +1,88 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8rem;
+    /* color: #666; */
+}
+.pimg1{
+    background: url('./images/img1.png')no-repeat center center/cover;
+    min-height: 100%;
+    position: relative;
+    /* background-position: center; */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+.pimg2{
+    background: url('./images/img2.png')no-repeat center center/cover;
+    min-height: 400px;
+    /* position: relative; */
+}
+.pimg3{
+    background: url('./images/img3.png')no-repeat center center/cover;
+    /* position: relative; */
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-attachment: fixed    ;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    /* font-weight: bold; */
+    letter-spacing: 8px;
+}
+.textBg{
+    background-color: #313534;
+    background-size: 50px;
+    padding: 20px;
+}
+.sec_one
+{
+    text-align: center;
+    /* margin: 60px; */
+    padding: 50px 80px;
+    background-color: #f4f4f4;
+}
+.sec_one h2{
+    
+    color: #666;
+}
+.sec_one p{
+    color: #666;
+    text-align: justify;
+    
+}
+.sec_two
+{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #282e34;
+    color: #ddd;
+}
+.sec_two h2{
+    text-align: center;
+}
+.sec_two{
+    text-align: justify;
+}
+.sec_three
+{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: #282e34;
+    color: #ddd;
+}
+.sec_three h2{
+    text-align: center;
+}
+.sec_three{
+    text-align: justify;
+}
